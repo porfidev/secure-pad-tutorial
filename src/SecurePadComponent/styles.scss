@@ -1,0 +1,41 @@
+.secure-pad-wrapper {
+  width: 400px;
+  min-height: 100px;
+}
+
+
+.icon {
+  width: 1em;
+  height: 1em;
+}
+.digits-container {
+
+  .digit {
+    height: 1em;
+    width: 1em;
+
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid blue;
+
+    &.fill {
+      background-color: #bbb;
+    }
+  }
+}
+
+
+.select-pad {
+  display: flex;
+  flex-wrap: wrap;
+
+  .pad {
+    flex: 1 0 21%; /* explanation below */
+    margin: 5px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
